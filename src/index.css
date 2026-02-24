@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Montserrat", sans-serif;
+  
+  --color-bg: #ffffff;
+  --color-ink: #000000;
+  --color-muted: #71717a;
+  --color-border: #e4e4e7;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-bg text-ink font-sans transition-colors duration-300;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold tracking-tight;
+  }
+}
+
+.dark {
+  --color-bg: #09090b;
+  --color-ink: #fafafa;
+  --color-muted: #a1a1aa;
+  --color-border: #27272a;
+}
+
+.glass {
+  @apply bg-bg/70 backdrop-blur-md border border-border;
+}
+
+.monochrome-gradient {
+  @apply bg-gradient-to-br from-ink/5 to-transparent;
+}
+
+.dot-grid {
+  background-image: radial-gradient(circle, currentColor 1px, transparent 1px);
+  background-size: 24px 24px;
+}

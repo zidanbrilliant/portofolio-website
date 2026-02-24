@@ -1,11 +1,14 @@
-````md
-# AI/ML Engineer & Data Scientist Portfolio (Monochrome)
+---
+
+### AI/ML Engineer & Data Scientist Portfolio (Monochrome)
 
 Website portfolio pribadi untuk menampilkan profil, pengalaman, dan proyek sebagai **AI/ML Engineer** dan **Data Scientist**. Desain mengusung **monochrome aesthetic** (hitam/putih/abu), tipografi **Montserrat** (heading) + **Poppins** (body), animasi halus, dan **visualisasi skill memakai chart/graph**.
 
 ---
 
-## ✨ Highlights
+---
+
+### ✨ Highlights
 
 - **Monochrome premium UI** (black/white/gray) dengan layout modern & minimal.
 - **Responsive** (mobile-first) + aksesibilitas (semantic HTML + ARIA).
@@ -21,7 +24,9 @@ Website portfolio pribadi untuk menampilkan profil, pengalaman, dan proyek sebag
 
 ---
 
-## 🧱 Tech Stack
+---
+
+### 🧱 Tech Stack
 
 > Sesuaikan dengan implementasi yang kamu generate (umumnya ini paling ideal).
 
@@ -30,6 +35,8 @@ Website portfolio pribadi untuk menampilkan profil, pengalaman, dan proyek sebag
 - **Animation**: Framer Motion (atau CSS + IntersectionObserver)
 - **Charts**: Recharts / Chart.js / ECharts
 - **Icons**: Lucide / Font Awesome / Simple Icons
+
+---
 
 ---
 
@@ -42,7 +49,6 @@ npm install
 yarn
 # atau
 pnpm install
-````
 
 ### 2) Start development server
 

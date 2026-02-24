@@ -42,7 +42,7 @@ export const CONTENT = {
   metrics: [
     { label: "GPA", value: "3.86/4.00" },
     { label: "ML Accuracy", value: "94-100%" },
-    { label: "Projects", value: "10+" },
+    { label: "Projects", value: "7+" },
     { label: "Competition", value: "National Finalist" }
   ],
   socials: [
@@ -54,9 +54,9 @@ export const CONTENT = {
   skills: {
     categories: [
       { name: "Machine Learning", value: 90 },
-      { name: "Data Engineering", value: 85 },
+      { name: "Data Engineering", value: 80 },
       { name: "Data Analytics", value: 95 },
-      { name: "Backend Dev", value: 80 },
+      { name: "Backend Dev", value: 75 },
       { name: "UI/UX Design", value: 75 }
     ],
     tools: [

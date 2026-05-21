@@ -95,16 +95,16 @@ export const CONTENT = {
       links: { repo: "https://github.com/zidanbrilliant/sql-ai-agent" }
     },
     {
-      title: "Automated Crypto Data Pipeline",
-      role: "Data Engineer",
-      date: "Jan 2026",
-      description: "Robust ETL pipeline for real-time cryptocurrency data extraction.",
-      problem: "Manual data collection for crypto trends was inefficient and prone to errors.",
-      approach: "Engineered an ETL pipeline using Apache Airflow and Docker for automation.",
-      tech: ["Apache Airflow", "Docker", "Pandas", "Python"],
-      metrics: ["Automated daily extraction", "Secure CSV storage"],
-      contribution: "Developed Python-based DAGs to handle API requests and transformations.",
-      links: { repo: "https://github.com/zidanbrilliant/airflow-crypto-etl" }
+      title: "Crypto Intraday Research Agent",
+      role: "AI Engineer & Data Scientist",
+      date: "Apr 2026",
+      description: "AI-powered decision support system for crypto intraday futures trading using real-time market data and sentiment analysis.",
+      problem: "Retail crypto traders lack access to institutional-grade analysis tools that consolidate market data, news sentiment, and technical indicators into actionable intraday insights.",
+      approach: "Built a modular pipeline integrating Binance Futures API for market data, RSS news feeds, and Fear & Greed Index, with Streamlit dashboard for interactive analysis.",
+      tech: ["Python", "Streamlit", "Binance API", "BeautifulSoup", "Technical Analysis"],
+      metrics: ["Real-time market data", "Multi-source sentiment", "Support/resistance levels"],
+      contribution: "Developed the complete analysis pipeline and interactive dashboard for intraday trading decisions.",
+      links: { repo: "https://github.com/zidanbrilliant/ai-reserach-agent" }
     },
     {
       title: "Predicting Short-Term Bitcoin Prices",

@@ -54,19 +54,20 @@ export const CONTENT = {
   skills: {
     categories: [
       { name: "Machine Learning", value: 90 },
+      { name: "LLM & Generative AI", value: 88 },
+      { name: "Data Science", value: 85 },
       { name: "Data Engineering", value: 80 },
-      { name: "Data Analytics", value: 95 },
-      { name: "Backend Dev", value: 75 },
-      { name: "UI/UX Design", value: 75 }
+      { name: "MLOps & Deployment", value: 75 }
     ],
     tools: [
-      "Python", "SQL", "Power BI", "Pandas", "NumPy", "Machine Learning",
-      "LangChain", "LLMs", "Prophet", "FastAPI", "Apache Airflow", "Docker", "ETL", "Data Visualization", "Figma"
+      "Python", "SQL", "PyTorch", "Hugging Face", "LangChain", "LangGraph",
+      "LLMs", "VLMs", "RAG", "PaddleOCR", "FastAPI", "Streamlit",
+      "Docker", "Apache Airflow", "Pandas", "NumPy", "Scikit-learn", "Power BI"
     ],
     experienceFocus: [
-      { name: "ML/AI", value: 40 },
-      { name: "Data Eng", value: 30 },
-      { name: "Analytics", value: 30 }
+      { name: "AI/ML Engineering", value: 50 },
+      { name: "Data Science", value: 30 },
+      { name: "MLOps", value: 20 }
     ]
   },
   projects: [
